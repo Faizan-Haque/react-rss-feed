@@ -1,0 +1,23 @@
+{
+  "name": "react-rss-feed",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Faizan-Haque/react-rss-feed.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Faizan-Haque/react-rss-feed/issues"
+  },
+  "homepage": "https://github.com/Faizan-Haque/react-rss-feed#readme",
+  "description": "",
+  "dependencies": {
+    "concurrently": "^9.2.0"
+  }
+}
