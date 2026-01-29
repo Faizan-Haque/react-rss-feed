@@ -6,6 +6,11 @@ const port = 3000;
 const parser = new Parser();
 const FEED_URL = 'https://www.theverge.com/rss/index.xml';
 
+// Add this root route
+app.get('/', (req, res) => {
+    res.send('Server is running! Visit <a href="/api/feed">/api/feed</a> to see the RSS feed.');
+});
+
 app.get('/api/feed', async (req, res) => {
     try {
         const feed = await parser.parseURL(FEED_URL);
